@@ -20,6 +20,7 @@ GET '/sorted/{ number }'
 POST '/' 
 ```
 ### others
+_add actors and directors
 ```
 POST '/actor'
 POST '/director'
