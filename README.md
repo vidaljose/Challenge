@@ -1,25 +1,31 @@
 # Challenge
 Development Challenge for Node.js This challenge aims to evaluate basic skills in Node.js development, and a bit of data/entity modeling. The idea is to build an HTTP REST API.
 
-# start
+## start
+```
 npm install 
+```
+## Endpoints
 
-# Endpoints
-# jwt key
+### jwt key
+```
 GET ':/key'
-
-# movie
+```
+### movie
+```
 GET ':/'
 GET '/limit/{ number }'
 GET '/sorted'
 GET '/sorted/{ number }'
 POST '/' 
-
-# others
+```
+### others
+```
 POST '/actor'
 POST '/director'
-
-# tvshow
+```
+### tvshow
+```
 GET '/{ string }' 
 POST '/'
-
+```
